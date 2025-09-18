@@ -1,0 +1,106 @@
+{
+  "full_image_size": [
+    394,
+    1280
+  ],
+  "slots": [
+    {
+      "left": 211,
+      "top": 69,
+      "width": 177,
+      "height": 320
+    },
+    {
+      "left": 126,
+      "top": 452,
+      "width": 142,
+      "height": 250
+    },
+    {
+      "left": 5,
+      "top": 824,
+      "width": 203,
+      "height": 380
+    }
+  ],
+  "debug": [
+    {
+      "crop": "/mnt/data/e7c2cf6d-f0e4-4cef-81b6-b5457a5080bc.jpg",
+      "outer_rect_in_crop": [
+        392,
+        74,
+        352,
+        622
+      ],
+      "inner_rect_in_crop": [
+        211,
+        43,
+        177,
+        320
+      ],
+      "template_match_top_left_in_full": [
+        0,
+        26
+      ],
+      "match_score": 0.974610447883606,
+      "slot_rect_in_full": [
+        211,
+        69,
+        177,
+        320
+      ]
+    },
+    {
+      "crop": "/mnt/data/44b8e906-342d-4fd3-92f2-a02e92541568.jpg",
+      "outer_rect_in_crop": [
+        233,
+        114,
+        284,
+        490
+      ],
+      "inner_rect_in_crop": [
+        126,
+        63,
+        142,
+        250
+      ],
+      "template_match_top_left_in_full": [
+        0,
+        389
+      ],
+      "match_score": 0.993078351020813,
+      "slot_rect_in_full": [
+        126,
+        452,
+        142,
+        250
+      ]
+    },
+    {
+      "crop": "/mnt/data/dfe6a9c9-a81a-4a01-a488-ba8f76048cdf.jpg",
+      "outer_rect_in_crop": [
+        0,
+        40,
+        407,
+        743
+      ],
+      "inner_rect_in_crop": [
+        5,
+        26,
+        203,
+        380
+      ],
+      "template_match_top_left_in_full": [
+        0,
+        798
+      ],
+      "match_score": 0.993544340133667,
+      "slot_rect_in_full": [
+        5,
+        824,
+        203,
+        380
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>HZ NEWS - Slots para GIF</title>
+<style>
+  /* Container com a imagem base */
+  .email-wrapper { 
+    position: relative; 
+    width: 100%; 
+    max-width: 394px; 
+    margin: 0 auto; 
+  }
+  .email-wrapper img.bg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  /* Slots recortados exatamente no retângulo vermelho */
+  .slot {
+    position: absolute;
+    overflow: hidden; /* garante o recorte exato */
+    /* Dica: troque o src do <img> dentro do slot pelo seu GIF */
+  }
+  .slot img, .slot video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* cobre toda a área do slot */
+    display: block;
+  }
+</style>
+</head>
+<body>
+  <div class="email-wrapper">
+    <img class="bg" src="https://hectorboss.github.io/hz-mkt/assets/hz-news.png" alt="HZ NEWS background" />
+    <div class="slot slot-1" style="left:53.553299%; top:5.390625%; width:44.923858%; height:25.000000%;">
+      <img src="https://hectorboss.github.io/hz-mkt/assets/placeholder-1.gif" alt="GIF slot 1" />
+    </div>
+    <div class="slot slot-2" style="left:31.979695%; top:35.312500%; width:35.040609%; height:19.531250%;">
+      <img src="https://hectorboss.github.io/hz-mkt/assets/placeholder-2.gif" alt="GIF slot 2" />
+    </div>
+    <div class="slot slot-3" style="left:0.019936%; top:64.175000%; width:54.522843%; height:29.999500%;">
+      <img src="https://hectorboss.github.io/hz-mkt/assets/placeholder-3.gif" alt="GIF slot 3" />
+    </div>
+  </div>
+</body>
+</html>
